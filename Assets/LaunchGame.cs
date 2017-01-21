@@ -6,7 +6,7 @@ public class LaunchGame : MonoBehaviour {
 
 	// Use this for initialization
 	public void START_THE_GAME(){
-		Application.LoadLevel ("testlevelBen");
+		Application.LoadLevel ("FirstLevel");
 
 		//Debug.Log ("COUCOU");
 

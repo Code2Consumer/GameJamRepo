@@ -8,4 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Menu.unity
   - enabled: 1
-    path: Assets/Levels/testlevelBen.unity
+    path: Assets/Levels/FirstLevel.unity

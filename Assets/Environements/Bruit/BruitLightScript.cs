@@ -23,7 +23,7 @@ public class BruitLightScript : MonoBehaviour {
 			transform.GetComponent<Light>().range = Puissance*4;
 		}
 		if(go){
-			transform.position -= new Vector3(0,0,0.12F);
+			transform.position -= new Vector3(0,0,0.34F);
 			if(transform.position.z <= -Puissance){
 				go 		= false;
 				back 	= true;
@@ -31,7 +31,7 @@ public class BruitLightScript : MonoBehaviour {
 			}
 		}
 		if(back){
-			transform.position += new Vector3(0,0,0.12F);
+			transform.position += new Vector3(0,0,0.34F);
 			if(transform.position.z >= 0){
 				Destroy(gameObject);
 			}

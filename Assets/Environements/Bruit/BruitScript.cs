@@ -22,7 +22,7 @@ public class BruitScript : MonoBehaviour {
 	void Update () {
 		Debug.Log(PeuRamasser);
 		if(transform.localScale.x <= Puissance/10 ){
-			transform.localScale += new Vector3(0.01F, 0.01F, 0);
+			transform.localScale += new Vector3(0.05F, 0.05F, 0);
 		}else{
 			//GetComponent<SpriteRenderer>().enabled = false;
 			GameObject.Destroy(gameObject);
