@@ -16,6 +16,7 @@ public class BruitScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		transform.Translate(Vector3.forward );
 		if(transform.localScale.x <= Puissance ){
 			transform.localScale += new Vector3(0.1F, 0.1F, 0);
 		}else{
@@ -25,9 +26,10 @@ public class BruitScript : MonoBehaviour {
 
 	//    GetComponent(MeshRenderer).enabled = false;
 
-
-
 	void OnTriggerEnter2D(Collider2D col) {
-        Debug.Log("COLLISION ENTER");
+		Debug.Log("ee");
+		//GetComponent<MeshRenderer>(MeshRenderer).enabled = false;
+		col.GetComponent<SpriteRenderer>().enabled = true;
     }
+
 }
