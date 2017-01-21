@@ -25,6 +25,7 @@ public class PickUpThrowScript : MonoBehaviour {
 			Debug.Log("e pressed");
 			Debug.Log(Canette);
 			ThrowCanette();
+			GetComponentInParent<AnimationCharacter> ().isThrowing = false;
 		}
 		if(Input.GetKeyDown(KeyCode.E) && PeuRamasser && !PeuLancerCanette){
 		//	DoitRamasser = true;

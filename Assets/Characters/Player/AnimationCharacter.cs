@@ -108,7 +108,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-			} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false && Input.GetKey (KeyCode.DownArrow) == false) {
+			} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false ) {
 				animationOBJ.Play ("PlayerIDLEanim");
 				isRunning = false;
 				m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
