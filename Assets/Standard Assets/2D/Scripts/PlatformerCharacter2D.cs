@@ -102,12 +102,15 @@ namespace UnityStandardAssets._2D
 			if (jump == true && m_Anim.GetFloat("vSpeed") < 0.0) {
 
 				jump = false;
+			
 				m_Anim.SetBool ("IsFalling", true);
 				Debug.Log ("check");
-
 			}
 
 
+			if(m_Anim.GetBool("Ground")){
+				m_Anim.SetBool("IsFalling", false);
+			}
         }
 
 
