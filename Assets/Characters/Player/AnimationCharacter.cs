@@ -8,6 +8,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 	public float jumpForce = 15;
 
+
 	public bool isOnGround;
 
 	public bool isScreaming;
@@ -24,13 +25,37 @@ public class AnimationCharacter : MonoBehaviour {
 	private Rigidbody2D m_Rigidbody2D;
 
 	private bool hasPlayed = false;
-
-
 	private bool LookRight;
+
+	public float lastStep = 0;
+	public float stepDuration = 0.2F;
+	public float DefaultStepPower ;
+
+	void PlayWaves(){
+		if(lastStep==0){
+			lastStep = Time.time;
+		}
+		if(Time.time-lastStep >= stepDuration){
+			Vector3 SpawnPosition = new Vector3(transform.position.x, transform.position.y-1, transform.position.z);
+			
+			Transform bruitClone = Instantiate(gameObject.GetComponent<CrierScript>().Bruit,  SpawnPosition, transform.rotation);
+			bruitClone
+				.GetComponent<BruitScript>()
+				.setPower(DefaultStepPower);
+
+			Transform bruitLightClone = Instantiate(gameObject.GetComponent<CrierScript>().BruitLight,  SpawnPosition, transform.rotation);
+			bruitLightClone
+				.GetComponent<BruitLightScript>()
+				.Puissance = DefaultStepPower;
+			lastStep=Time.time;
+		}
+	}
 
 	// Use this for initialization
 	void Start () {
-
+		if(DefaultStepPower==0){
+			DefaultStepPower = 7;
+		}
 		animationOBJ = GetComponentInChildren<Animator> ();
 		isOnGround = true;
 		LookRight = true;
@@ -62,23 +87,20 @@ public class AnimationCharacter : MonoBehaviour {
 
 		if (isRamassing == false && isThrowing == false) {
 			
-
-
-
-
 			if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow)) {
 				
 				GetComponent<AnimationCharacter> ().isScreaming = false;
 				isRunning = false;
 				if (isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
 					animationOBJ.Play ("PlayerWALKanim");
+					//Walking
+					PlayWaves();
 					isRunning = true;
 					if (hasPlayed == false) {
 						Debug.Log ("Detected");
 						GetComponent<AudioSource> ().Play ();
 						hasPlayed = true;
 					}
-
 
 					if (!GetComponent<AudioSource> ().isPlaying) {
 						hasPlayed = false;
@@ -150,16 +172,14 @@ public class AnimationCharacter : MonoBehaviour {
 	{
 		return isRunning;
 	}
-
-
 	void Flip()
 	{
-		
-
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+
 }
 
 
