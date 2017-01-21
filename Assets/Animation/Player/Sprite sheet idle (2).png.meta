@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: aaf5aad811734c440a578e7309f52402
-timeCreated: 1484999556
+guid: 6fc77e354cec4c94da615e10b2cb331b
+timeCreated: 1485000555
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sprite sheet Idle_0
-    21300002: Sprite sheet Idle_1
-    21300004: Sprite sheet Idle_2
-    21300006: Sprite sheet Idle_3
-    21300008: Sprite sheet Idle_4
-    21300010: Sprite sheet Idle_5
-    21300012: Sprite sheet Idle_6
-    21300014: Sprite sheet Idle_7
-    21300016: Sprite sheet Idle_8
-    21300018: Sprite sheet Idle_9
-    21300020: Sprite sheet Idle_10
-    21300022: Sprite sheet Idle_11
-    21300024: Sprite sheet Idle_12
-    21300026: Sprite sheet Idle_13
-    21300028: Sprite sheet Idle_14
-    21300030: Sprite sheet Idle_15
-    21300032: Sprite sheet Idle_16
-    21300034: Sprite sheet Idle_17
-    21300036: Sprite sheet Idle_18
-    21300038: Sprite sheet Idle_19
-    21300040: Sprite sheet Idle_20
-    21300042: Sprite sheet Idle_21
-    21300044: Sprite sheet Idle_22
-    21300046: Sprite sheet Idle_23
-    21300048: Sprite sheet Idle_24
-    21300050: Sprite sheet Idle_25
-    21300052: Sprite sheet Idle_26
-    21300054: Sprite sheet Idle_27
-    21300056: Sprite sheet Idle_28
-    21300058: Sprite sheet Idle_29
-    21300060: Sprite sheet Idle_30
+    21300000: Sprite sheet idle (2)_0
+    21300002: Sprite sheet idle (2)_1
+    21300004: Sprite sheet idle (2)_2
+    21300006: Sprite sheet idle (2)_3
+    21300008: Sprite sheet idle (2)_4
+    21300010: Sprite sheet idle (2)_5
+    21300012: Sprite sheet idle (2)_6
+    21300014: Sprite sheet idle (2)_7
+    21300016: Sprite sheet idle (2)_8
+    21300018: Sprite sheet idle (2)_9
+    21300020: Sprite sheet idle (2)_10
+    21300022: Sprite sheet idle (2)_11
+    21300024: Sprite sheet idle (2)_12
+    21300026: Sprite sheet idle (2)_13
+    21300028: Sprite sheet idle (2)_14
+    21300030: Sprite sheet idle (2)_15
+    21300032: Sprite sheet idle (2)_16
+    21300034: Sprite sheet idle (2)_17
+    21300036: Sprite sheet idle (2)_18
+    21300038: Sprite sheet idle (2)_19
+    21300040: Sprite sheet idle (2)_20
+    21300042: Sprite sheet idle (2)_21
+    21300044: Sprite sheet idle (2)_22
+    21300046: Sprite sheet idle (2)_23
+    21300048: Sprite sheet idle (2)_24
+    21300050: Sprite sheet idle (2)_25
+    21300052: Sprite sheet idle (2)_26
+    21300054: Sprite sheet idle (2)_27
+    21300056: Sprite sheet idle (2)_28
+    21300058: Sprite sheet idle (2)_29
+    21300060: Sprite sheet idle (2)_30
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -157,403 +157,403 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite sheet Idle_0
+      name: Sprite sheet idle (2)_0
       rect:
         serializedVersion: 2
         x: 4
-        y: 760
-        width: 61
-        height: 257
+        y: 806
+        width: 50
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_1
+      name: Sprite sheet idle (2)_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 763
-        width: 60
-        height: 257
+        x: 65
+        y: 806
+        width: 51
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_2
+      name: Sprite sheet idle (2)_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 759
-        width: 59
-        height: 257
+        x: 126
+        y: 804
+        width: 50
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_3
+      name: Sprite sheet idle (2)_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 759
-        width: 59
-        height: 257
+        x: 188
+        y: 807
+        width: 50
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_4
+      name: Sprite sheet idle (2)_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 761
-        width: 59
-        height: 255
+        x: 247
+        y: 804
+        width: 50
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_5
+      name: Sprite sheet idle (2)_5
       rect:
         serializedVersion: 2
-        x: 350
-        y: 760
-        width: 59
-        height: 257
+        x: 304
+        y: 804
+        width: 52
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_6
+      name: Sprite sheet idle (2)_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 804
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 804
+        width: 52
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 576
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 52
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 576
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 578
+        width: 50
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 579
+        width: 52
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 576
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 576
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 576
+        width: 52
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 352
+        width: 50
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 352
+        width: 50
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 348
+        width: 52
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 350
+        width: 50
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 348
+        width: 50
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_21
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 351
+        width: 50
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 352
+        width: 50
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet idle (2)_23
       rect:
         serializedVersion: 2
         x: 419
-        y: 761
-        width: 60
-        height: 255
+        y: 351
+        width: 49
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_7
+      name: Sprite sheet idle (2)_24
       rect:
         serializedVersion: 2
-        x: 487
-        y: 761
-        width: 59
-        height: 255
+        x: 3
+        y: 124
+        width: 50
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_8
+      name: Sprite sheet idle (2)_25
       rect:
         serializedVersion: 2
-        x: 562
-        y: 760
-        width: 59
-        height: 257
+        x: 60
+        y: 124
+        width: 50
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_9
+      name: Sprite sheet idle (2)_26
       rect:
         serializedVersion: 2
-        x: 632
-        y: 759
-        width: 60
-        height: 257
+        x: 120
+        y: 124
+        width: 52
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_10
+      name: Sprite sheet idle (2)_27
       rect:
         serializedVersion: 2
-        x: 704
-        y: 759
-        width: 60
-        height: 257
+        x: 176
+        y: 127
+        width: 50
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_11
+      name: Sprite sheet idle (2)_28
       rect:
         serializedVersion: 2
-        x: 772
-        y: 760
-        width: 60
-        height: 257
+        x: 232
+        y: 124
+        width: 50
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_12
+      name: Sprite sheet idle (2)_29
       rect:
         serializedVersion: 2
-        x: 840
-        y: 760
-        width: 60
-        height: 257
+        x: 288
+        y: 123
+        width: 52
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite sheet Idle_13
+      name: Sprite sheet idle (2)_30
       rect:
         serializedVersion: 2
-        x: 908
-        y: 760
-        width: 61
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_14
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 496
-        width: 59
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_15
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 492
-        width: 59
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_16
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 495
-        width: 59
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_17
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 495
-        width: 60
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_18
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 496
-        width: 60
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_19
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 492
-        width: 61
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_20
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 492
-        width: 60
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_21
-      rect:
-        serializedVersion: 2
-        x: 494
-        y: 496
-        width: 59
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_22
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 496
-        width: 60
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_23
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 492
-        width: 58
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_24
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 492
-        width: 60
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_25
-      rect:
-        serializedVersion: 2
-        x: 772
-        y: 492
-        width: 60
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_26
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 493
-        width: 61
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_27
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 492
-        width: 60
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_28
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 211
-        width: 60
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_29
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 212
-        width: 59
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite sheet Idle_30
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 211
-        width: 60
-        height: 255
+        x: 344
+        y: 124
+        width: 52
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
