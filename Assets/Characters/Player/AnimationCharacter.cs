@@ -61,7 +61,7 @@ public class AnimationCharacter : MonoBehaviour {
 					LookRight = true;
 				}
 
-				transform.Translate (Vector3.right * (1/ speed));
+				m_Rigidbody2D.velocity = new Vector2 (speed, m_Rigidbody2D.velocity.y);
 
 			}else if( Input.GetKey (KeyCode.LeftArrow)) {
 				if (LookRight == true) {
@@ -70,13 +70,14 @@ public class AnimationCharacter : MonoBehaviour {
 				}
 
 
-				transform.Translate (Vector3.left * ( 1/ speed));
+				m_Rigidbody2D.velocity = new Vector2 (-speed, m_Rigidbody2D.velocity.y);
 			}
 
 
 
 		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false) {
 			animationOBJ.Play ("PlayerIDLEanim");
+			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 
 		}
 
