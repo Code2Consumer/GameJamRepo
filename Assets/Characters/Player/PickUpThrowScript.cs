@@ -27,6 +27,7 @@ public class PickUpThrowScript : MonoBehaviour {
 		}
 		if(Input.GetKeyDown("e") && PeuRamasser && !PeuLancerCanette){
 		//	DoitRamasser = true;
+
 			Debug.Log("e pressed");
 			Debug.Log(Canette);
 			PickUpObject();
@@ -59,6 +60,7 @@ public class PickUpThrowScript : MonoBehaviour {
     		Vector3 SpawnPosition = new Vector3(transform.position.x, transform.position.y+1, transform.position.z);
     		//Canette.transform = transform;		
 			Transform CanetteClone = Instantiate(CanetteModel.transform,  transform.position, transform.rotation);
+			CanetteClone.GetComponent<CanetteScript>().ToTheRight = gameObject.GetComponent<AnimationCharacter>().getLookRight();
     		CanetteClone.GetComponent<CanetteScript>().Avance = true;
     		PeuLancerCanette = false ;
 	}

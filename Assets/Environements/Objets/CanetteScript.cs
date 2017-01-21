@@ -14,7 +14,11 @@ public class CanetteScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Avance){
-			transform.position += new Vector3(0.4F,0,0);
+			if(ToTheRight){
+				transform.position += new Vector3(0.4F,0,0);
+			}else{
+				transform.position -= new Vector3(0.4F,0,0);
+			}
 		}
 	}
 }

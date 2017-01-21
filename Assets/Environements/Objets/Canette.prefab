@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50469284796990782}
   - component: {fileID: 61068377290151700}
   - component: {fileID: 61773868726019060}
+  - component: {fileID: 114094089619148266}
   m_Layer: 0
   m_Name: Canette
   m_TagString: Untagged
@@ -91,6 +92,19 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
+--- !u!114 &114094089619148266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180281149145536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d9554c9d8a7f041b09ec26ed12dcaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Avance: 0
+  ToTheRight: 0
 --- !u!212 &212537510215822522
 SpriteRenderer:
   m_ObjectHideFlags: 1
