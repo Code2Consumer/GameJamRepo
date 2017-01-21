@@ -13,6 +13,8 @@ public class AnimationCharacter : MonoBehaviour {
 	private Animator animationOBJ;
 	private Rigidbody2D m_Rigidbody2D;
 
+	private bool hasPlayed = false;
+
 
 	private bool LookRight;
 
@@ -52,6 +54,18 @@ public class AnimationCharacter : MonoBehaviour {
 			animationOBJ.SetTime (1);
 			if (isOnGround == true) {
 				animationOBJ.Play ("PlayerWALKanim");
+				if (hasPlayed == false) {
+					Debug.Log ("Detected");
+					GetComponent<AudioSource> ().Play();
+					hasPlayed = true;
+				}
+
+
+				if (!GetComponent<AudioSource> ().isPlaying) {
+					hasPlayed = false;
+				}
+			//	this.GetComponent<Rigidbody2D> ().isKinematic = false;
+
 			}
 
 
@@ -112,3 +126,5 @@ public class AnimationCharacter : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 }
+
+
