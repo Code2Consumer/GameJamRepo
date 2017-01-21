@@ -14,13 +14,13 @@ public class BruitLightScript : MonoBehaviour {
 	void Start () {
 		go = true ;
 		back = false ;
-		transform.GetComponent<Light>().range = Puissance*2;
+		transform.GetComponent<Light>().range = Puissance*4;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(Parent!=null){
-			transform.GetComponent<Light>().range = Puissance*2;
+			transform.GetComponent<Light>().range = Puissance*4;
 		}
 		if(go){
 			transform.position -= new Vector3(0,0,0.12F);

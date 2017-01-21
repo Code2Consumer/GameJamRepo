@@ -20,7 +20,7 @@ public class CrierScript : MonoBehaviour {
 		PowerSet = false ;
 		animationOBJ = GetComponentInChildren<Animator> ();
 		if(RatioCrie==0){
-			RatioCrie = 7;
+			RatioCrie = 10;
 		}
 	}
 
