@@ -15,7 +15,7 @@ public class CameraScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(Player.GetComponent<AnimationCharacter>().LookRight);
+		Debug.Log(Player.GetComponent<AnimationCharacter>().getLookRight());
 		gameObject.transform.position = new Vector3(Player.position.x+8, Player.position.y, gameObject.transform.position.z);
 	}
 }
