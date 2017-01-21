@@ -6,7 +6,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 	public float speed = 0.0f;
 
-	public float jumpForce = 800;
+	public float jumpForce = 15;
 
 	private bool isOnGround;
 
@@ -23,6 +23,7 @@ public class AnimationCharacter : MonoBehaviour {
 		isOnGround = true;
 		LookRight = true;
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+
 
 
 	
@@ -47,9 +48,12 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-		if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow)) {
+		if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow) ) {
 			animationOBJ.SetTime (1);
-			animationOBJ.Play ("PlayerWALKanim");
+			if (isOnGround == true) {
+				animationOBJ.Play ("PlayerWALKanim");
+			}
+
 
 			if (Input.GetKey (KeyCode.RightArrow) == true) {
 				if (LookRight == false) {
@@ -78,8 +82,13 @@ public class AnimationCharacter : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true) {
 			animationOBJ.Play ("PlayerJUMPanim");
-			m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+			//m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+
 			isOnGround = false;
+
+			m_Rigidbody2D.velocity = new Vector2 (0, jumpForce);
+			//transform.Translate (Vector3.up * ( Time.deltaTime * jumpForce));
+
 		}
 
 
