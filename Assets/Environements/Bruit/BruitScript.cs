@@ -7,6 +7,7 @@ public class BruitScript : MonoBehaviour {
 	public float Puissance; //Force du paralax
 	public Transform BruitLight; //Force du paralax
 	public bool LightSpawned; //Force du paralax
+	public bool PeuRamasser; //Force du paralax
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +20,7 @@ public class BruitScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		Debug.Log(PeuRamasser);
 		if(transform.localScale.x <= Puissance/10 ){
 			transform.localScale += new Vector3(0.01F, 0.01F, 0);
 		}else{
@@ -31,9 +32,7 @@ public class BruitScript : MonoBehaviour {
 	public void setPower(float power){
 		Puissance = power;
 	}
-	//    GetComponent(MeshRenderer).enabled = false;
-	void OnTriggerEnter2D(Collider2D col) {
-		col.GetComponent<SpriteRenderer>().enabled = true;
-    }
+
+
 
 }

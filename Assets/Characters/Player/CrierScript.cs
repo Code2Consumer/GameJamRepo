@@ -39,7 +39,7 @@ public class CrierScript : MonoBehaviour {
 
 	void SpawnToutLesObjectsBruit(){
 		Vector3 SpawnPosition = new Vector3(transform.position.x, transform.position.y+1, transform.position.z);
-						ShoutPower = ShoutPower * RatioCrie;
+				ShoutPower = ShoutPower * RatioCrie;
 				Transform bruitClone = Instantiate(Bruit,  SpawnPosition, transform.rotation);
 				bruitClone
 					.GetComponent<BruitScript>()
