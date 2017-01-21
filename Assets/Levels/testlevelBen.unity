@@ -247,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633259939}
   - component: {fileID: 633259940}
+  - component: {fileID: 633259941}
   m_Layer: 0
   m_Name: zoneAttack
   m_TagString: Untagged
@@ -281,6 +282,17 @@ BoxCollider2D:
   m_Offset: {x: -0.014827728, y: -0.014827371}
   serializedVersion: 2
   m_Size: {x: 0.65402895, y: 1.2866609}
+--- !u!114 &633259941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633259938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f65b4ff5d16124c8bec632b13a8e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &644539695
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +560,7 @@ Animator:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1144878565}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0f8aacc777075564c8275bab5d1fdab5, type: 2}
   m_CullingMode: 0
@@ -739,6 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385458394}
   - component: {fileID: 1385458395}
+  - component: {fileID: 1385458396}
   m_Layer: 0
   m_Name: Vision
   m_TagString: Untagged
@@ -773,6 +786,17 @@ BoxCollider2D:
   m_Offset: {x: -0.004940033, y: 0.4547037}
   serializedVersion: 2
   m_Size: {x: 2.7496219, y: 0.3475988}
+--- !u!114 &1385458396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385458393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77ebd398a0e21d44a04cbfb61a7df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1544274069
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +894,8 @@ MonoBehaviour:
   maxRight: 3
   maxLeft: 3
   SpeedMovement: 3
+  isChasing: 0
+  isAttacking: 0
 --- !u!61 &1544274074
 BoxCollider2D:
   m_ObjectHideFlags: 0

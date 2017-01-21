@@ -97,7 +97,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-	bool getLookRight()
+	public bool getLookRight()
 	{
 		return LookRight;
 	}

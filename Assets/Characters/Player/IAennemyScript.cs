@@ -38,7 +38,9 @@ public class IAennemyScript : MonoBehaviour {
 
 	void Chase(){
 		lastPositionJoueur = transform.Find ("/Perso").position;
-		//if(transform.position.x 
+		if (transform.position.x != lastPositionJoueur.x) {
+			transform.Translate (lastPositionJoueur * Time.deltaTime * SpeedMovement);
+		}
 		//transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 
 	}
