@@ -8,7 +8,7 @@ public class LaunchGame : MonoBehaviour {
 	public void START_THE_GAME(){
 		Application.LoadLevel ("testlevelBen");
 
-		Debug.Log ("COUCOU");
+		//Debug.Log ("COUCOU");
 
 	}
 

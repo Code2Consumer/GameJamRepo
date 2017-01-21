@@ -12,28 +12,39 @@ public class CrierScript : MonoBehaviour {
 	public bool PowerSet;
 	public float RatioCrie;
 
+
+	private Animator animationOBJ;
+
 	// Use this for initialization
 	void Start () {
 		PowerSet = false ;
+		animationOBJ = GetComponentInChildren<Animator> ();
 		if(RatioCrie==0){
 			RatioCrie = 7;
 		}
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey("space")){
+		if(Input.GetKey(KeyCode.Space)){
 			if(StartPressingShout == 0){
 				StartPressingShout = Time.time;
+				GetComponent<AnimationCharacter> ().isScreaming = true;
+				animationOBJ.Play ("PlayerPrepareSCREAManim");
+			
 			}
 		}else{
 			if(StartPressingShout != 0){
 				ShoutPower = Time.time - StartPressingShout;
 				SpawnToutLesObjectsBruit();
 				PowerSet = false ;
+				GetComponent<AnimationCharacter> ().isScreaming = true;
+				animationOBJ.Play ("PlayerSCREAManim");
+
 			}
 			StartPressingShout = 0;
 		}
+
 
 	}
 

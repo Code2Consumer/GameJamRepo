@@ -10,6 +10,8 @@ public class AnimationCharacter : MonoBehaviour {
 
 	private bool isOnGround;
 
+	public bool isScreaming;
+
 	private Animator animationOBJ;
 	private Rigidbody2D m_Rigidbody2D;
 
@@ -24,6 +26,7 @@ public class AnimationCharacter : MonoBehaviour {
 		animationOBJ = GetComponentInChildren<Animator> ();
 		isOnGround = true;
 		LookRight = true;
+		isScreaming = false;
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 
@@ -52,6 +55,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow) ) {
 			animationOBJ.SetTime (1);
+			GetComponent<AnimationCharacter> ().isScreaming = false;
 			if (isOnGround == true) {
 				animationOBJ.Play ("PlayerWALKanim");
 				if (hasPlayed == false) {
@@ -89,7 +93,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false) {
+		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false){
 			animationOBJ.Play ("PlayerIDLEanim");
 			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 
