@@ -1,0 +1,1252 @@
+fileFormatVersion: 2
+guid: f65e18c5197f30748a0ca3714b79cee6
+timeCreated: 1485022328
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Se baisser_0
+    21300002: Se baisser_1
+    21300004: Se baisser_2
+    21300006: Se baisser_3
+    21300008: Se baisser_4
+    21300010: Se baisser_5
+    21300012: Se baisser_6
+    21300014: Se baisser_7
+    21300016: Se baisser_8
+    21300018: Se baisser_9
+    21300020: Se baisser_10
+    21300022: Se baisser_11
+    21300024: Se baisser_12
+    21300026: Se baisser_13
+    21300028: Se baisser_14
+    21300030: Se baisser_15
+    21300032: Se baisser_16
+    21300034: Se baisser_17
+    21300036: Se baisser_18
+    21300038: Se baisser_19
+    21300040: Se baisser_20
+    21300042: Se baisser_21
+    21300044: Se baisser_22
+    21300046: Se baisser_23
+    21300048: Se baisser_24
+    21300050: Se baisser_25
+    21300052: Se baisser_26
+    21300054: Se baisser_27
+    21300056: Se baisser_28
+    21300058: Se baisser_29
+    21300060: Se baisser_30
+    21300062: Se baisser_31
+    21300064: Se baisser_32
+    21300066: Se baisser_33
+    21300068: Se baisser_34
+    21300070: Se baisser_35
+    21300072: Se baisser_36
+    21300074: Se baisser_37
+    21300076: Se baisser_38
+    21300078: Se baisser_39
+    21300080: Se baisser_40
+    21300082: Se baisser_41
+    21300084: Se baisser_42
+    21300086: Se baisser_43
+    21300088: Se baisser_44
+    21300090: Se baisser_45
+    21300092: Se baisser_46
+    21300094: Se baisser_47
+    21300096: Se baisser_48
+    21300098: Se baisser_49
+    21300100: Se baisser_50
+    21300102: Se baisser_51
+    21300104: Se baisser_52
+    21300106: Se baisser_53
+    21300108: Se baisser_54
+    21300110: Se baisser_55
+    21300112: Se baisser_56
+    21300114: Se baisser_57
+    21300116: Se baisser_58
+    21300118: Se baisser_59
+    21300120: Se baisser_60
+    21300122: Se baisser_61
+    21300124: Se baisser_62
+    21300126: Se baisser_63
+    21300128: Se baisser_64
+    21300130: Se baisser_65
+    21300132: Se baisser_66
+    21300134: Se baisser_67
+    21300136: Se baisser_68
+    21300138: Se baisser_69
+    21300140: Se baisser_70
+    21300142: Se baisser_71
+    21300144: Se baisser_72
+    21300146: Se baisser_73
+    21300148: Se baisser_74
+    21300150: Se baisser_75
+    21300152: Se baisser_76
+    21300154: Se baisser_77
+    21300156: Se baisser_78
+    21300158: Se baisser_79
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Se baisser_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_5
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_6
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_7
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_8
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_9
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1795
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_13
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_14
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_15
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_16
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_17
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_18
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_19
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1542
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_23
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_24
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_26
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_27
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_28
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_29
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1289
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_32
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_34
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_35
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_36
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_37
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_38
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_39
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1036
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_41
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_43
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_44
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_45
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_46
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_47
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_48
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_49
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 783
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_51
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_53
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_54
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_55
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_56
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_57
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_58
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_59
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 530
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_61
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_62
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_63
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_64
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_65
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_66
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_67
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_68
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_69
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 277
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_71
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_72
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_73
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_74
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_75
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_76
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_77
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_78
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Se baisser_79
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 24
+        width: 201
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

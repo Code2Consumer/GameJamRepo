@@ -12,6 +12,8 @@ public class AnimationCharacter : MonoBehaviour {
 
 	public bool isScreaming;
 
+	public bool isGetting;
+
 	private bool isRunning;
 
 	private Animator animationOBJ;
@@ -30,6 +32,8 @@ public class AnimationCharacter : MonoBehaviour {
 		LookRight = true;
 		isScreaming = false;
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+
+		animationOBJ.SetTime (1);
 
 
 
@@ -53,11 +57,14 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
+		if (Input.GetKey (KeyCode.DownArrow) == true && isOnGround == true) {
+			animationOBJ.Play ("PlayerGETanim");
 
+		}
 
 
 		if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow) ) {
-			animationOBJ.SetTime (1);
+			
 			GetComponent<AnimationCharacter> ().isScreaming = false;
 			isRunning = false;
 			if (isOnGround == true &&  Input.GetKey(KeyCode.UpArrow) == false) {
@@ -98,7 +105,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey(KeyCode.UpArrow) == false){
+		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey(KeyCode.UpArrow) == false && Input.GetKey (KeyCode.DownArrow) == false){
 			animationOBJ.Play ("PlayerIDLEanim");
 			isRunning = false;
 			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
