@@ -97,7 +97,10 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-
+	bool getLookRight()
+	{
+		return LookRight;
+	}
 
 
 	void Flip()
