@@ -298,7 +298,8 @@ MonoBehaviour:
   DoitRamasser: 0
   PeuLancerCanette: 0
   Canette: {fileID: 0}
-  CanetteModel: {fileID: 0}
+  CanetteModel: {fileID: 1180281149145536, guid: d764e62a935a6eb42a71da86cfb16518,
+    type: 2}
 --- !u!212 &212145692788500294
 SpriteRenderer:
   m_ObjectHideFlags: 1
