@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: 3074211cf1c88014c92db3333d442049
+timeCreated: 1485027391
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite sheet rampement + hide_0
+    21300002: Sprite sheet rampement + hide_1
+    21300004: Sprite sheet rampement + hide_2
+    21300006: Sprite sheet rampement + hide_3
+    21300008: Sprite sheet rampement + hide_4
+    21300010: Sprite sheet rampement + hide_5
+    21300012: Sprite sheet rampement + hide_6
+    21300014: Sprite sheet rampement + hide_7
+    21300016: Sprite sheet rampement + hide_8
+    21300018: Sprite sheet rampement + hide_9
+    21300020: Sprite sheet rampement + hide_10
+    21300022: Sprite sheet rampement + hide_11
+    21300024: Sprite sheet rampement + hide_12
+    21300026: Sprite sheet rampement + hide_13
+    21300028: Sprite sheet rampement + hide_14
+    21300030: Sprite sheet rampement + hide_15
+    21300032: Sprite sheet rampement + hide_16
+    21300034: Sprite sheet rampement + hide_17
+    21300036: Sprite sheet rampement + hide_18
+    21300038: Sprite sheet rampement + hide_19
+    21300040: Sprite sheet rampement + hide_20
+    21300042: Sprite sheet rampement + hide_21
+    21300044: Sprite sheet rampement + hide_22
+    21300046: Sprite sheet rampement + hide_23
+    21300048: Sprite sheet rampement + hide_24
+    21300050: Sprite sheet rampement + hide_25
+    21300052: Sprite sheet rampement + hide_26
+    21300054: Sprite sheet rampement + hide_27
+    21300056: Sprite sheet rampement + hide_28
+    21300058: Sprite sheet rampement + hide_29
+    21300060: Sprite sheet rampement + hide_30
+    21300062: Sprite sheet rampement + hide_31
+    21300064: Sprite sheet rampement + hide_32
+    21300066: Sprite sheet rampement + hide_33
+    21300068: Sprite sheet rampement + hide_34
+    21300070: Sprite sheet rampement + hide_35
+    21300072: Sprite sheet rampement + hide_36
+    21300074: Sprite sheet rampement + hide_37
+    21300076: Sprite sheet rampement + hide_38
+    21300078: Sprite sheet rampement + hide_39
+    21300080: Sprite sheet rampement + hide_40
+    21300082: Sprite sheet rampement + hide_41
+    21300084: Sprite sheet rampement + hide_42
+    21300086: Sprite sheet rampement + hide_43
+    21300088: Sprite sheet rampement + hide_44
+    21300090: Sprite sheet rampement + hide_45
+    21300092: Sprite sheet rampement + hide_46
+    21300094: Sprite sheet rampement + hide_47
+    21300096: Sprite sheet rampement + hide_48
+    21300098: Sprite sheet rampement + hide_49
+    21300100: Sprite sheet rampement + hide_50
+    21300102: Sprite sheet rampement + hide_51
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1858
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1858
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1858
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1858
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1858
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1668
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1668
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1668
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1668
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_9
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1668
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1478
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1478
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1478
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_13
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1478
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_14
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1478
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1288
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_17
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1288
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_18
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1288
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_19
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1288
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1098
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1098
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1098
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_23
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1098
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_24
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1098
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 908
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 908
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_28
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 908
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_29
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 908
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 718
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 718
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 718
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_34
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 718
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 528
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 528
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_38
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 528
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 528
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_41
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 338
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_42
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 338
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_43
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 338
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_44
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 338
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 148
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_47
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 148
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_48
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 148
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_49
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 148
+        width: 352
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_50
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1433
+        width: 156
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5695175, y: 0.5314886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet rampement + hide_51
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1747
+        width: 156
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
