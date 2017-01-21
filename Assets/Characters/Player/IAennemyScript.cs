@@ -10,9 +10,13 @@ public class IAennemyScript : MonoBehaviour {
 	public float SpeedMovement;
 
 	private bool animStart;
-
+	public bool isChasing;
+	public bool isAttacking;
 	private bool goLeft;
 	private bool goRight;
+
+
+	private Vector3 lastPositionJoueur;
 
 	private Vector3 startPosition;
 	// Use this for initialization
@@ -23,6 +27,24 @@ public class IAennemyScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (isAttacking == false && isChasing == false) {
+			routine ();
+		} else if (isChasing == true && isAttacking == false) {
+			Chase ();
+		}
+
+		
+	}
+
+	void Chase(){
+		lastPositionJoueur = transform.Find ("/Perso").position;
+		//if(transform.position.x 
+		//transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
+
+	}
+
+	void routine()
+	{
 		if (animStart == true) {
 			transform.Translate (Vector3.left * ( Time.deltaTime * SpeedMovement));
 		}
@@ -43,7 +65,8 @@ public class IAennemyScript : MonoBehaviour {
 		}else if(goLeft == true){
 			transform.Translate (Vector3.left * ( Time.deltaTime * SpeedMovement));
 		}
-
-		
 	}
+
+
+
 }
