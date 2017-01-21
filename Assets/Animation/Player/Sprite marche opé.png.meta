@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: bc6971bfd91efe24da03f10ebd88828a
+timeCreated: 1484992839
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "Sprite marche op\xE9_0"
+    21300002: "Sprite marche op\xE9_1"
+    21300004: "Sprite marche op\xE9_2"
+    21300006: "Sprite marche op\xE9_3"
+    21300008: "Sprite marche op\xE9_4"
+    21300010: "Sprite marche op\xE9_5"
+    21300012: "Sprite marche op\xE9_6"
+    21300014: "Sprite marche op\xE9_7"
+    21300016: "Sprite marche op\xE9_8"
+    21300018: "Sprite marche op\xE9_9"
+    21300020: "Sprite marche op\xE9_10"
+    21300022: "Sprite marche op\xE9_11"
+    21300024: "Sprite marche op\xE9_12"
+    21300026: "Sprite marche op\xE9_13"
+    21300028: "Sprite marche op\xE9_14"
+    21300030: "Sprite marche op\xE9_15"
+    21300032: "Sprite marche op\xE9_16"
+    21300034: "Sprite marche op\xE9_17"
+    21300036: "Sprite marche op\xE9_18"
+    21300038: "Sprite marche op\xE9_19"
+    21300040: "Sprite marche op\xE9_20"
+    21300042: "Sprite marche op\xE9_21"
+    21300044: "Sprite marche op\xE9_22"
+    21300046: "Sprite marche op\xE9_23"
+    21300048: "Sprite marche op\xE9_24"
+    21300050: "Sprite marche op\xE9_25"
+    21300052: "Sprite marche op\xE9_26"
+    21300054: "Sprite marche op\xE9_27"
+    21300056: "Sprite marche op\xE9_28"
+    21300058: "Sprite marche op\xE9_29"
+    21300060: "Sprite marche op\xE9_30"
+    21300062: "Sprite marche op\xE9_31"
+    21300064: "Sprite marche op\xE9_32"
+    21300066: "Sprite marche op\xE9_33"
+    21300068: "Sprite marche op\xE9_34"
+    21300070: "Sprite marche op\xE9_35"
+    21300072: "Sprite marche op\xE9_36"
+    21300074: "Sprite marche op\xE9_37"
+    21300076: "Sprite marche op\xE9_38"
+    21300078: "Sprite marche op\xE9_39"
+    21300080: "Sprite marche op\xE9_40"
+    21300082: "Sprite marche op\xE9_41"
+    21300084: "Sprite marche op\xE9_42"
+    21300086: "Sprite marche op\xE9_43"
+    21300088: "Sprite marche op\xE9_44"
+    21300090: "Sprite marche op\xE9_45"
+    21300092: "Sprite marche op\xE9_46"
+    21300094: "Sprite marche op\xE9_47"
+    21300096: "Sprite marche op\xE9_48"
+    21300098: "Sprite marche op\xE9_49"
+    21300100: "Sprite marche op\xE9_50"
+    21300102: "Sprite marche op\xE9_51"
+    21300104: "Sprite marche op\xE9_52"
+    21300106: "Sprite marche op\xE9_53"
+    21300108: "Sprite marche op\xE9_54"
+    21300110: "Sprite marche op\xE9_55"
+    21300112: "Sprite marche op\xE9_56"
+    21300114: "Sprite marche op\xE9_57"
+    21300116: "Sprite marche op\xE9_58"
+    21300118: "Sprite marche op\xE9_59"
+    21300120: "Sprite marche op\xE9_60"
+    21300122: "Sprite marche op\xE9_61"
+    21300124: "Sprite marche op\xE9_62"
+    21300126: "Sprite marche op\xE9_63"
+    21300128: "Sprite marche op\xE9_64"
+    21300130: "Sprite marche op\xE9_65"
+    21300132: "Sprite marche op\xE9_66"
+    21300134: "Sprite marche op\xE9_67"
+    21300136: "Sprite marche op\xE9_68"
+    21300138: "Sprite marche op\xE9_69"
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_0"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1632
+        width: 144
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_1"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1631
+        width: 141
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_2"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1631
+        width: 139
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_3"
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1631
+        width: 142
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_4"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1631
+        width: 145
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_5"
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1631
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_6"
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1631
+        width: 152
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_7"
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1631
+        width: 153
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_8"
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1631
+        width: 155
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_9"
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1631
+        width: 149
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_10"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1360
+        width: 144
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_11"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1358
+        width: 138
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_12"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1356
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_13"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1356
+        width: 123
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_14"
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1356
+        width: 117
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_15"
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1357
+        width: 110
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_16"
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1358
+        width: 107
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_17"
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1359
+        width: 89
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_18"
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1359
+        width: 76
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_19"
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1359
+        width: 62
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_20"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1090
+        width: 56
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_21"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1090
+        width: 56
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_22"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1091
+        width: 61
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_23"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1092
+        width: 69
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_24"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1092
+        width: 75
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_25"
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1092
+        width: 79
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_26"
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1091
+        width: 87
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_27"
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1091
+        width: 95
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_28"
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1091
+        width: 102
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_29"
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1091
+        width: 110
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_30"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 822
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_31"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 823
+        width: 123
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_32"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 820
+        width: 128
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_33"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 820
+        width: 129
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_34"
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 820
+        width: 133
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_35"
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 819
+        width: 136
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_36"
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 820
+        width: 140
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_37"
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 820
+        width: 142
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_38"
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 822
+        width: 145
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_39"
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 824
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_40"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 556
+        width: 150
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_41"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 555
+        width: 142
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_42"
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 552
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_43"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 552
+        width: 124
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_44"
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 552
+        width: 117
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_45"
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 552
+        width: 105
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_46"
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 552
+        width: 96
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_47"
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 555
+        width: 89
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_48"
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 556
+        width: 80
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_49"
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 556
+        width: 67
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_50"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 286
+        width: 69
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_51"
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 284
+        width: 72
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_52"
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 284
+        width: 77
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_53"
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 286
+        width: 83
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_54"
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 286
+        width: 86
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_55"
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 287
+        width: 92
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_56"
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 288
+        width: 104
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_57"
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 287
+        width: 107
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_58"
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 287
+        width: 111
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_59"
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 286
+        width: 116
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_60"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 121
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_61"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 16
+        width: 126
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_62"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 16
+        width: 135
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "Sprite marche op\xE9_63"
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 18
+        width: 142
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

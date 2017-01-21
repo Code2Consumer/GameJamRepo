@@ -15,6 +15,8 @@ public class IAennemyScript : MonoBehaviour {
 	private bool goLeft;
 	private bool goRight;
 
+	private Rigidbody2D m_Rigidbody2D;
+
 
 	private Vector3 lastPositionJoueur;
 
@@ -23,6 +25,8 @@ public class IAennemyScript : MonoBehaviour {
 	void Start () {
 		animStart = true;
 		startPosition = transform.position;
+
+		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
@@ -31,6 +35,8 @@ public class IAennemyScript : MonoBehaviour {
 			routine ();
 		} else if (isChasing == true && isAttacking == false) {
 			Chase ();
+		} else if (isChasing == true & isAttacking == true) {
+			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 		}
 
 		
@@ -38,8 +44,12 @@ public class IAennemyScript : MonoBehaviour {
 
 	void Chase(){
 		lastPositionJoueur = transform.Find ("/Perso").position;
-		if (transform.position.x != lastPositionJoueur.x) {
-			transform.Translate (lastPositionJoueur * Time.deltaTime * SpeedMovement);
+		if (transform.position.x > lastPositionJoueur.x) {
+
+
+			m_Rigidbody2D.velocity = new Vector2 (-SpeedMovement, m_Rigidbody2D.velocity.y);
+		} else {
+			m_Rigidbody2D.velocity = new Vector2 (SpeedMovement, m_Rigidbody2D.velocity.y);
 		}
 		//transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 
@@ -48,7 +58,7 @@ public class IAennemyScript : MonoBehaviour {
 	void routine()
 	{
 		if (animStart == true) {
-			transform.Translate (Vector3.left * ( Time.deltaTime * SpeedMovement));
+			m_Rigidbody2D.velocity = new Vector2 (-SpeedMovement, m_Rigidbody2D.velocity.y);
 		}
 
 		if (transform.position.x >= startPosition.x + maxRight) {
@@ -63,9 +73,9 @@ public class IAennemyScript : MonoBehaviour {
 		}
 
 		if (goRight == true) {
-			transform.Translate (Vector3.right * ( Time.deltaTime * SpeedMovement));
+			m_Rigidbody2D.velocity = new Vector2 (SpeedMovement, m_Rigidbody2D.velocity.y);
 		}else if(goLeft == true){
-			transform.Translate (Vector3.left * ( Time.deltaTime * SpeedMovement));
+			m_Rigidbody2D.velocity = new Vector2 (-SpeedMovement, m_Rigidbody2D.velocity.y);
 		}
 	}
 
