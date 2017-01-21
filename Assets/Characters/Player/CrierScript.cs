@@ -38,12 +38,13 @@ public class CrierScript : MonoBehaviour {
 	}
 
 	void SpawnToutLesObjectsBruit(){
+		Vector3 SpawnPosition = new Vector3(transform.position.x, transform.position.y+1, transform.position.z);
 						ShoutPower = ShoutPower * RatioCrie;
-				Transform bruitClone = Instantiate(Bruit,  transform.position, transform.rotation);
+				Transform bruitClone = Instantiate(Bruit,  SpawnPosition, transform.rotation);
 				bruitClone
 					.GetComponent<BruitScript>()
 					.setPower(ShoutPower);
-				Transform bruitLightClone = Instantiate(BruitLight,  transform.position, transform.rotation);
+				Transform bruitLightClone = Instantiate(BruitLight,  SpawnPosition, transform.rotation);
 				bruitLightClone
 					.GetComponent<BruitLightScript>()
 					.Puissance = ShoutPower;

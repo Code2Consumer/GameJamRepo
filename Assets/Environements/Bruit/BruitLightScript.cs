@@ -17,7 +17,10 @@ public class BruitLightScript : MonoBehaviour {
 		if(Parent!=null){
 			transform.GetComponent<Light>().range = Puissance*2;
 		}
-		transform.position -= new Vector3(0,0,0.08F);
+		transform.position -= new Vector3(0,0,0.12F);
+		if(transform.position.z <= -20.0F){
+			Destroy(gameObject);
+		}
 	}
 
 	public void setPower(float power){
