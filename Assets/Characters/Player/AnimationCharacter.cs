@@ -8,9 +8,11 @@ public class AnimationCharacter : MonoBehaviour {
 
 	public float jumpForce = 15;
 
-	private bool isOnGround;
+	public bool isOnGround;
 
 	public bool isScreaming;
+
+	private bool isRunning;
 
 	private Animator animationOBJ;
 	private Rigidbody2D m_Rigidbody2D;
@@ -39,6 +41,7 @@ public class AnimationCharacter : MonoBehaviour {
 		if (other.gameObject.layer == LayerMask.NameToLayer("Ground")) {
 			//Destroy(other.gameObject);
 			isOnGround = true;
+			isRunning = false;
 			Debug.Log ("DESTROY");
 		}
 
@@ -56,8 +59,10 @@ public class AnimationCharacter : MonoBehaviour {
 		if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow) ) {
 			animationOBJ.SetTime (1);
 			GetComponent<AnimationCharacter> ().isScreaming = false;
-			if (isOnGround == true) {
+			isRunning = false;
+			if (isOnGround == true &&  Input.GetKey(KeyCode.UpArrow) == false) {
 				animationOBJ.Play ("PlayerWALKanim");
+				isRunning = true;
 				if (hasPlayed == false) {
 					Debug.Log ("Detected");
 					GetComponent<AudioSource> ().Play();
@@ -93,14 +98,16 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false){
+		} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey(KeyCode.UpArrow) == false){
 			animationOBJ.Play ("PlayerIDLEanim");
+			isRunning = false;
 			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 
 		}
 
-		if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true) {
+		if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true ) {
 			animationOBJ.Play ("PlayerJUMPanim");
+			isRunning = false;
 			//m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
 
 			isOnGround = false;
@@ -118,6 +125,15 @@ public class AnimationCharacter : MonoBehaviour {
 	public bool getLookRight()
 	{
 		return LookRight;
+	}
+
+	public bool getIsOnGround()
+	{
+		return isOnGround;
+	}
+	public bool getIsRunning()
+	{
+		return isRunning;
 	}
 
 
