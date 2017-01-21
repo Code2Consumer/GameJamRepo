@@ -27,10 +27,10 @@ public class CameraScript : MonoBehaviour {
         float step = speed * Time.deltaTime;
 		if(Player.GetComponent<AnimationCharacter>().getLookRight()){
 			// gameObject.transform.Translate(new Vector3(Player.position.x+(width*0.4f), Player.position.y, gameObject.transform.position.z).forward );
-			transform.position = Vector3.MoveTowards(transform.position, new Vector3(Player.position.x+(width*0.4f), Player.position.y, gameObject.transform.position.z), step);
+			transform.position = Vector3.MoveTowards(transform.position, new Vector3(Player.position.x+(width*0.2f), Player.position.y+3, gameObject.transform.position.z), step);
 		}else{
 			// gameObject.transform.Translate(new Vector3(Player.position.x+(width*-0.4f), Player.position.y, gameObject.transform.position.z).forward );
-			transform.position = Vector3.MoveTowards(transform.position, new Vector3(Player.position.x, Player.position.y, gameObject.transform.position.z), step);
+			transform.position = Vector3.MoveTowards(transform.position, new Vector3(Player.position.x, Player.position.y+3, gameObject.transform.position.z), step);
 		}
 	}
 }
