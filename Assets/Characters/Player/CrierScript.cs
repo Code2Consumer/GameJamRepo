@@ -29,7 +29,16 @@ public class CrierScript : MonoBehaviour {
 		}else{
 			if(StartPressingShout != 0){
 				ShoutPower = Time.time - StartPressingShout;
-				ShoutPower = ShoutPower * RatioCrie;
+				SpawnToutLesObjectsBruit();
+				PowerSet = false ;
+			}
+			StartPressingShout = 0;
+		}
+
+	}
+
+	void SpawnToutLesObjectsBruit(){
+						ShoutPower = ShoutPower * RatioCrie;
 				Transform bruitClone = Instantiate(Bruit,  transform.position, transform.rotation);
 				bruitClone
 					.GetComponent<BruitScript>()
@@ -38,11 +47,5 @@ public class CrierScript : MonoBehaviour {
 				bruitLightClone
 					.GetComponent<BruitLightScript>()
 					.Puissance = ShoutPower;
-			//	BruitLight					.GetComponent<BruitLightScript>()					.Parent=bruitClone;
-				PowerSet = false ;
-			}
-			StartPressingShout = 0;
-		}
-
 	}
 }
