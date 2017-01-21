@@ -6,9 +6,14 @@ public class BruitLightScript : MonoBehaviour {
 
 	public float Puissance; //Force du paralax
 	public Transform Parent; //Force du paralax
+	public bool go;
+	public bool back;
+
 	
 	// Use this for initialization
 	void Start () {
+		go = true ;
+		back = false ;
 		transform.GetComponent<Light>().range = Puissance*2;
 	}
 	
@@ -17,9 +22,19 @@ public class BruitLightScript : MonoBehaviour {
 		if(Parent!=null){
 			transform.GetComponent<Light>().range = Puissance*2;
 		}
-		transform.position -= new Vector3(0,0,0.12F);
-		if(transform.position.z <= -20.0F){
-			Destroy(gameObject);
+		if(go){
+			transform.position -= new Vector3(0,0,0.12F);
+			if(transform.position.z <= -Puissance){
+				go 		= false;
+				back 	= true;
+				//Destroy(gameObject);
+			}
+		}
+		if(back){
+			transform.position += new Vector3(0,0,0.12F);
+			if(transform.position.z >= 0){
+				Destroy(gameObject);
+			}
 		}
 	}
 
