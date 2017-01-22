@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CachetteScript : MonoBehaviour {
 
-	public GameObject Cachette; //Force du paralax
-	public bool PeuSeCacher; //Force du paralax
-	public bool EstCachee; //Force du paralax
+	public GameObject Cachette; 
+	public bool PeuSeCacher; 
+	public bool EstCachee; 
 
 	// Use this for initialization
 	void Start () {
@@ -18,23 +18,29 @@ public class CachetteScript : MonoBehaviour {
 	void Update () {
 		if (Input.anyKeyDown && EstCachee) {
 			gameObject.GetComponent<SpriteRenderer>().enabled = true ;
+			Cachette.GetComponent<SpriteRenderer>().enabled = true;
 			EstCachee = false;
+			//Play Sound Ouvrir 
 		}
 		if(Input.GetKeyDown("f") && PeuSeCacher && !EstCachee){
 			gameObject.GetComponent<SpriteRenderer>().enabled = false ;
+			Cachette.GetComponent<SpriteRenderer>().enabled = false;
 			EstCachee = true;
+			//Play Sound fermer
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if(col.gameObject.name == "Cachette"){
+		if(col.gameObject.name == "Casier 01 Ouvert" || col.gameObject.name == "Casier 02 Ouvert"){
+			//Casier 02 Ouvert
 			PeuSeCacher = true;
 			Cachette = col.gameObject;
 		}
     }
 	void OnTriggerExit2D(Collider2D col) {
-		if(col.gameObject.name == "Cachette"){
+		if(col.gameObject.name == "Casier 01 Ouvert" || col.gameObject.name == "Casier 02 Ouvert"){
 			PeuSeCacher = false;
+			Cachette = null ;
 		}
     }
 }
