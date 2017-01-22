@@ -42,6 +42,12 @@ public class AnimationCharacter : MonoBehaviour {
 			bruitClone
 				.GetComponent<BruitScript>()
 				.setPower(DefaultStepPower);
+				
+				bruitClone
+				.GetComponent<BruitScript>()
+				.isStep();
+				//Destroy(bruitClone.FindChild("Onde2"));
+				//Destroy(bruitClone.FindChild("Onde3"));
 
 			Transform bruitLightClone = Instantiate(gameObject.GetComponent<CrierScript>().BruitLight,  SpawnPosition, transform.rotation);
 			bruitLightClone

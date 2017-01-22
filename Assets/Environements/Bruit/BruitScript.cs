@@ -33,6 +33,11 @@ public class BruitScript : MonoBehaviour {
 		Puissance = power;
 	}
 
+	public void isStep(){
+		Destroy(gameObject.transform.FindChild("Onde 2").gameObject );
+		Destroy(gameObject.transform.FindChild("Onde 3").gameObject );
+	}
+
 
 
 }
