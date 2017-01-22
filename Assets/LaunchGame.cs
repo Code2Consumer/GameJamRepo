@@ -12,4 +12,18 @@ public class LaunchGame : MonoBehaviour {
 
 	}
 
+
+	public void Update()
+	{
+		if (Input.GetButton ("StartButton")) {
+			Application.LoadLevel ("Intro");
+
+		}
+
+		if (Input.GetButton ("ButtonSelect")) {
+			Application.LoadLevel ("Credits");
+
+		}
+	}
+
 }

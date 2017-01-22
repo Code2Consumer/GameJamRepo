@@ -33,8 +33,12 @@ public class Pause : MonoBehaviour {
 				isLock = 0;
 			}
 
-		} else {
+		} else if (Input.GetButton ("StartButton") == false) {
 			isLock = 1;
+		}
+
+		if (Input.GetButton ("ButtonSelect") == true) {
+			Application.LoadLevel ("Menu");
 		}
 
 		//Si showGUI a été mis a 1 dans la ligne du dessus

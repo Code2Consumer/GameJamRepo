@@ -14,7 +14,7 @@ public class IAennemyScript : MonoBehaviour {
 	public bool isAttacking;
 	private bool goLeft;
 	private bool goRight;
-
+	private bool detectByLight;
 
 	private int isFlip ;
 	private bool LookRight;
@@ -45,7 +45,19 @@ public class IAennemyScript : MonoBehaviour {
 		} else if (isChasing == true & isAttacking == true) {
 			m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 			Attack ();
+		} else if (isChasing == false && isAttacking == false && detectByLight == true) {
+			if (transform.position.x > lastPositionJoueur.x) {
+
+
+				m_Rigidbody2D.velocity = new Vector2 (-SpeedMovement, m_Rigidbody2D.velocity.y);
+			} else {
+				m_Rigidbody2D.velocity = new Vector2 (SpeedMovement, m_Rigidbody2D.velocity.y);
+			}
+
 		}
+
+
+
 
 		
 	}
@@ -54,12 +66,26 @@ public class IAennemyScript : MonoBehaviour {
 		animatorEnnemy.Play ("WalkEnnemy");
 		lastPositionJoueur = transform.Find ("/Perso").position;
 		if (transform.position.x > lastPositionJoueur.x) {
-
+			if (isFlip == 0) {
+				isFlip = 1;
+				Flip ();
+			}
 
 			m_Rigidbody2D.velocity = new Vector2 (-SpeedMovement, m_Rigidbody2D.velocity.y);
+
+
 		} else {
+			if (isFlip == 1) {
+				isFlip = 0;
+				Flip ();
+			}
+
 			m_Rigidbody2D.velocity = new Vector2 (SpeedMovement, m_Rigidbody2D.velocity.y);
+
+
 		}
+
+
 		//transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 
 	}
@@ -134,4 +160,17 @@ public class IAennemyScript : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.name == "Bruit" || other.gameObject.name == "Bruit(Clone)" ) {
+
+			lastPositionJoueur = other.transform.position;
+			isChasing = true;
+
+		}
+	}
+
+
 }
