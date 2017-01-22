@@ -1,0 +1,1140 @@
+fileFormatVersion: 2
+guid: 62bca6f6b764d7940a57d6d315562238
+timeCreated: 1485049456
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite sheet marche zombie_0
+    21300002: Sprite sheet marche zombie_1
+    21300004: Sprite sheet marche zombie_2
+    21300006: Sprite sheet marche zombie_3
+    21300008: Sprite sheet marche zombie_4
+    21300010: Sprite sheet marche zombie_5
+    21300012: Sprite sheet marche zombie_6
+    21300014: Sprite sheet marche zombie_7
+    21300016: Sprite sheet marche zombie_8
+    21300018: Sprite sheet marche zombie_9
+    21300020: Sprite sheet marche zombie_10
+    21300022: Sprite sheet marche zombie_11
+    21300024: Sprite sheet marche zombie_12
+    21300026: Sprite sheet marche zombie_13
+    21300028: Sprite sheet marche zombie_14
+    21300030: Sprite sheet marche zombie_15
+    21300032: Sprite sheet marche zombie_16
+    21300034: Sprite sheet marche zombie_17
+    21300036: Sprite sheet marche zombie_18
+    21300038: Sprite sheet marche zombie_19
+    21300040: Sprite sheet marche zombie_20
+    21300042: Sprite sheet marche zombie_21
+    21300044: Sprite sheet marche zombie_22
+    21300046: Sprite sheet marche zombie_23
+    21300048: Sprite sheet marche zombie_24
+    21300050: Sprite sheet marche zombie_25
+    21300052: Sprite sheet marche zombie_26
+    21300054: Sprite sheet marche zombie_27
+    21300056: Sprite sheet marche zombie_28
+    21300058: Sprite sheet marche zombie_29
+    21300060: Sprite sheet marche zombie_30
+    21300062: Sprite sheet marche zombie_31
+    21300064: Sprite sheet marche zombie_32
+    21300066: Sprite sheet marche zombie_33
+    21300068: Sprite sheet marche zombie_34
+    21300070: Sprite sheet marche zombie_35
+    21300072: Sprite sheet marche zombie_36
+    21300074: Sprite sheet marche zombie_37
+    21300076: Sprite sheet marche zombie_38
+    21300078: Sprite sheet marche zombie_39
+    21300080: Sprite sheet marche zombie_40
+    21300082: Sprite sheet marche zombie_41
+    21300084: Sprite sheet marche zombie_42
+    21300086: Sprite sheet marche zombie_43
+    21300088: Sprite sheet marche zombie_44
+    21300090: Sprite sheet marche zombie_45
+    21300092: Sprite sheet marche zombie_46
+    21300094: Sprite sheet marche zombie_47
+    21300096: Sprite sheet marche zombie_48
+    21300098: Sprite sheet marche zombie_49
+    21300100: Sprite sheet marche zombie_50
+    21300102: Sprite sheet marche zombie_51
+    21300104: Sprite sheet marche zombie_52
+    21300106: Sprite sheet marche zombie_53
+    21300108: Sprite sheet marche zombie_54
+    21300110: Sprite sheet marche zombie_55
+    21300112: Sprite sheet marche zombie_56
+    21300114: Sprite sheet marche zombie_57
+    21300116: Sprite sheet marche zombie_58
+    21300118: Sprite sheet marche zombie_59
+    21300120: Sprite sheet marche zombie_60
+    21300122: Sprite sheet marche zombie_61
+    21300124: Sprite sheet marche zombie_62
+    21300126: Sprite sheet marche zombie_63
+    21300128: Sprite sheet marche zombie_64
+    21300130: Sprite sheet marche zombie_65
+    21300132: Sprite sheet marche zombie_66
+    21300134: Sprite sheet marche zombie_67
+    21300136: Sprite sheet marche zombie_68
+    21300138: Sprite sheet marche zombie_69
+    21300140: Sprite sheet marche zombie_70
+    21300142: Sprite sheet marche zombie_71
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1814
+        width: 124
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1812
+        width: 125
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1812
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1812
+        width: 127
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1812
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_5
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1814
+        width: 131
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_6
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1812
+        width: 134
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_7
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1812
+        width: 134
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_8
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1812
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1812
+        width: 138
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_10
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1812
+        width: 139
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_11
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1812
+        width: 141
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1563
+        width: 141
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1562
+        width: 139
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1560
+        width: 134
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_15
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1560
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_16
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1560
+        width: 129
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_17
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1560
+        width: 126
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_18
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1560
+        width: 122
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1560
+        width: 120
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_20
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1560
+        width: 117
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_21
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1560
+        width: 112
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_22
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1560
+        width: 110
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_23
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1560
+        width: 108
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1308
+        width: 105
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1308
+        width: 101
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_26
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1308
+        width: 101
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_27
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1308
+        width: 104
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_28
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1308
+        width: 105
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_29
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1310
+        width: 108
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1308
+        width: 110
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_31
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1310
+        width: 111
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_32
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1311
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_33
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1311
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_34
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1311
+        width: 116
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_35
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1311
+        width: 118
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1059
+        width: 117
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1059
+        width: 118
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1056
+        width: 119
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_39
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1058
+        width: 121
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_40
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1059
+        width: 121
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_41
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1056
+        width: 122
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_42
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1056
+        width: 124
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1056
+        width: 126
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_44
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1056
+        width: 127
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_45
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1056
+        width: 129
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_46
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1056
+        width: 130
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_47
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1056
+        width: 132
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 804
+        width: 134
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 804
+        width: 130
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 804
+        width: 129
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_51
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 804
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_52
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 803
+        width: 124
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_53
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 803
+        width: 119
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_54
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 804
+        width: 115
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_55
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 804
+        width: 113
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_56
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 804
+        width: 111
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 804
+        width: 109
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_58
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 804
+        width: 105
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_59
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 804
+        width: 101
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 552
+        width: 104
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_61
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 552
+        width: 107
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 554
+        width: 114
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_63
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 552
+        width: 117
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_64
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 554
+        width: 120
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_65
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 554
+        width: 119
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_66
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 552
+        width: 120
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_67
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 552
+        width: 122
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_68
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 552
+        width: 122
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_69
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 554
+        width: 124
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_70
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 552
+        width: 123
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite sheet marche zombie_71
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 555
+        width: 125
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
