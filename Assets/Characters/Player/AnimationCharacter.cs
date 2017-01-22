@@ -63,6 +63,9 @@ public class AnimationCharacter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+
+
 		if(DefaultStepPower==0){
 			DefaultStepPower = 7;
 		}
@@ -114,7 +117,7 @@ public class AnimationCharacter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (CanRamping == true && Input.GetKey (KeyCode.DownArrow)) {
+		if (CanRamping == true &&  Input.GetButton("ButtonY")) {
 			isRamping = true;
 		}
 		if (isRamping == false) {
@@ -122,11 +125,11 @@ public class AnimationCharacter : MonoBehaviour {
 		
 			if (isRamassing == false && isThrowing == false) {
 				
-				if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow)) {
+				if (Input.GetAxis("Horizontal") > 0.04f || Input.GetAxis("Horizontal") < -0.04f ) {
 					
 					GetComponent<AnimationCharacter> ().isScreaming = false;
 					isRunning = false;
-					if (isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
+					if (isOnGround == true &&  Input.GetButton("ButtonA") == false ) {
 						animationOBJ.Play ("PlayerWALKanim");
 						//Walking
 						PlayWaves ();
@@ -134,6 +137,9 @@ public class AnimationCharacter : MonoBehaviour {
 						if (hasPlayed == false) {
 							Debug.Log ("Detected");
 							GetComponent<AudioSource> ().Play ();
+
+						//	AudioSource aido = (AudioSource)GameObject.Find ("BodyfallHuman_forest");
+							//aido.Play ();
 							hasPlayed = true;
 						}
 
@@ -145,7 +151,7 @@ public class AnimationCharacter : MonoBehaviour {
 					}
 
 
-					if (Input.GetKey (KeyCode.RightArrow) == true) {
+					if (Input.GetAxis("Horizontal") > 0.04f ) {
 						if (LookRight == false) {
 							Flip ();
 							LookRight = true;
@@ -153,7 +159,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 						m_Rigidbody2D.velocity = new Vector2 (speed, m_Rigidbody2D.velocity.y);
 
-					} else if (Input.GetKey (KeyCode.LeftArrow)) {
+					} else if (Input.GetAxis("Horizontal") < -0.04f) {
 						if (LookRight == true) {
 							Flip ();
 							LookRight = false;
@@ -165,14 +171,14 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-				} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
+				} else if (Input.GetAxis("Horizontal") > -0.04f && Input.GetAxis("Horizontal") < 0.04f && isScreaming == false && isOnGround == true && Input.GetButton("ButtonA") == false) {
 					animationOBJ.Play ("PlayerIDLEanim");
 					isRunning = false;
 					m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 
 				}
 
-				if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true) {
+				if ((Input.GetKey (KeyCode.UpArrow) || Input.GetButton("ButtonA")) == true && isOnGround == true) {
 					animationOBJ.Play ("PlayerJUMPanim");
 					isRunning = false;
 					//m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));

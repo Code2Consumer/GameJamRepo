@@ -26,7 +26,7 @@ public class CrierScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey(KeyCode.Space) == true  && GetComponent<AnimationCharacter> ().getIsOnGround() && GetComponent<AnimationCharacter>().getIsRunning() == false){
+		if(Input.GetButton("ButtonX") == true  && GetComponent<AnimationCharacter> ().getIsOnGround() && GetComponent<AnimationCharacter>().getIsRunning() == false){
 			if(StartPressingShout == 0){
 				StartPressingShout = Time.time;
 				GetComponent<AnimationCharacter> ().isScreaming = true;

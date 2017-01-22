@@ -19,7 +19,7 @@ public class PickUpThrowScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.E) && PeuLancerCanette && !PeuRamasser){
+		if(Input.GetButton("ButtonRB") && PeuLancerCanette && !PeuRamasser){
 		//	DoitRamasser = true;
 			GetComponentInParent<AnimationCharacter> ().isThrowing = true;
 			Debug.Log("e pressed");
@@ -27,7 +27,7 @@ public class PickUpThrowScript : MonoBehaviour {
 			ThrowCanette();
 			GetComponentInParent<AnimationCharacter> ().isThrowing = false;
 		}
-		if(Input.GetKeyDown(KeyCode.E) && PeuRamasser && !PeuLancerCanette){
+		if(Input.GetButton("ButtonRB") && PeuRamasser && !PeuLancerCanette){
 		//	DoitRamasser = true;
 			GetComponentInParent<AnimationCharacter> ().isRamassing = true;
 			GetComponentInParent<AnimationCharacter> ().getAnimator().Play("PlayerGETanim");
