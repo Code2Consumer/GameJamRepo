@@ -21,6 +21,10 @@ public class AnimationCharacter : MonoBehaviour {
 
 	private bool isRunning;  
 
+	public bool isRamping;
+
+	private bool CanRamping;
+
 	private Animator animationOBJ;
 	private Rigidbody2D m_Rigidbody2D;
 
@@ -70,6 +74,7 @@ public class AnimationCharacter : MonoBehaviour {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 		isRamassing = false;
 		animationOBJ.SetTime (1);
+		isRamping = false;
 
 
 
@@ -84,76 +89,115 @@ public class AnimationCharacter : MonoBehaviour {
 			isRunning = false;
 			Debug.Log ("DESTROY");
 		}
+		if (other.gameObject.tag == "TriggerRampe" && isRamping == false) {
+			CanRamping = true;
+		}
+
+
+
 
 	}
+
+
+	void OnTriggerExit2D(Collider2D other)
+	{
+
+		if (other.gameObject.tag == "TriggerRampe" && isRamping == true) {
+			isRamping = false;
+			CanRamping = false;
+
+		}
+	}
+
 
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (isRamassing == false && isThrowing == false) {
-			
-			if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow)) {
+		if (CanRamping == true && Input.GetKey (KeyCode.DownArrow)) {
+			isRamping = true;
+		}
+		if (isRamping == false) {
+
+		
+			if (isRamassing == false && isThrowing == false) {
 				
-				GetComponent<AnimationCharacter> ().isScreaming = false;
-				isRunning = false;
-				if (isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
-					animationOBJ.Play ("PlayerWALKanim");
-					//Walking
-					PlayWaves();
-					isRunning = true;
-					if (hasPlayed == false) {
-						Debug.Log ("Detected");
-						GetComponent<AudioSource> ().Play ();
-						hasPlayed = true;
+				if (Input.GetKey (KeyCode.RightArrow) == true || Input.GetKey (KeyCode.LeftArrow)) {
+					
+					GetComponent<AnimationCharacter> ().isScreaming = false;
+					isRunning = false;
+					if (isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
+						animationOBJ.Play ("PlayerWALKanim");
+						//Walking
+						PlayWaves ();
+						isRunning = true;
+						if (hasPlayed == false) {
+							Debug.Log ("Detected");
+							GetComponent<AudioSource> ().Play ();
+							hasPlayed = true;
+						}
+
+						if (!GetComponent<AudioSource> ().isPlaying) {
+							hasPlayed = false;
+						}
+						//	this.GetComponent<Rigidbody2D> ().isKinematic = false;
+
 					}
 
-					if (!GetComponent<AudioSource> ().isPlaying) {
-						hasPlayed = false;
+
+					if (Input.GetKey (KeyCode.RightArrow) == true) {
+						if (LookRight == false) {
+							Flip ();
+							LookRight = true;
+						}
+
+						m_Rigidbody2D.velocity = new Vector2 (speed, m_Rigidbody2D.velocity.y);
+
+					} else if (Input.GetKey (KeyCode.LeftArrow)) {
+						if (LookRight == true) {
+							Flip ();
+							LookRight = false;
+						}
+
+
+						m_Rigidbody2D.velocity = new Vector2 (-speed, m_Rigidbody2D.velocity.y);
 					}
-					//	this.GetComponent<Rigidbody2D> ().isKinematic = false;
+
+
+
+				} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
+					animationOBJ.Play ("PlayerIDLEanim");
+					isRunning = false;
+					m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
 
 				}
 
+				if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true) {
+					animationOBJ.Play ("PlayerJUMPanim");
+					isRunning = false;
+					//m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
 
-				if (Input.GetKey (KeyCode.RightArrow) == true) {
-					if (LookRight == false) {
-						Flip ();
-						LookRight = true;
-					}
+					isOnGround = false;
 
-					m_Rigidbody2D.velocity = new Vector2 (speed, m_Rigidbody2D.velocity.y);
+					m_Rigidbody2D.velocity = new Vector2 (0, jumpForce);
+					//transform.Translate (Vector3.up * ( Time.deltaTime * jumpForce));
 
-				} else if (Input.GetKey (KeyCode.LeftArrow)) {
-					if (LookRight == true) {
-						Flip ();
-						LookRight = false;
-					}
-
-
-					m_Rigidbody2D.velocity = new Vector2 (-speed, m_Rigidbody2D.velocity.y);
 				}
 
+			}
+		} else {
 
 
-			} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false ) {
-				animationOBJ.Play ("PlayerIDLEanim");
-				isRunning = false;
-				m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);
-
+			animationOBJ.Play ("PlayerRAMPanim");
+			GetComponent<BoxCollider2D> ().size.Set (0.5f, 0.5f);
+			if (LookRight == true) {
+				m_Rigidbody2D.velocity = new Vector2 (speed, m_Rigidbody2D.velocity.y);
+			} else {
+				m_Rigidbody2D.velocity = new Vector2 (-speed, m_Rigidbody2D.velocity.y);
 			}
 
-			if (Input.GetKey (KeyCode.UpArrow) == true && isOnGround == true) {
-				animationOBJ.Play ("PlayerJUMPanim");
-				isRunning = false;
-				//m_Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
 
-				isOnGround = false;
 
-				m_Rigidbody2D.velocity = new Vector2 (0, jumpForce);
-				//transform.Translate (Vector3.up * ( Time.deltaTime * jumpForce));
-
-			}
 
 		}
 
