@@ -6,18 +6,14 @@ public class CachetteScript : MonoBehaviour {
 
 	public GameObject Cachette; 
 	public bool PeuSeCacher; 
-	public bool EstCachee; 
-	public Component[] aSources; 
+	public bool EstCachee;  
 
 	// Use this for initialization
 	void Start () {
 		PeuSeCacher = true ;
 		EstCachee = false ;
-
-		aSources = GetComponents<AudioSource>(); 
-		Component audio1 = aSources[0]; 
-		Component audio2 = aSources[1]; 
-		Component audio3 = aSources[2];
+	
+		// Component audio3 = aSources[2];
 	}
 	
 	// Update is called once per frame
@@ -26,12 +22,20 @@ public class CachetteScript : MonoBehaviour {
 			gameObject.GetComponent<SpriteRenderer>().enabled = true ;
 			Cachette.GetComponent<SpriteRenderer>().enabled = true;
 			EstCachee = false;
+			AudioSource audio = Cachette.GetComponents<AudioSource>()[1];
+			        audio.Play();
+			Debug.Log("play source");
+
 			//Play Sound Ouvrir 
 		}
 		if(Input.GetKeyDown("f") && PeuSeCacher && !EstCachee){
 			gameObject.GetComponent<SpriteRenderer>().enabled = false ;
 			Cachette.GetComponent<SpriteRenderer>().enabled = false;
 			EstCachee = true;
+
+			AudioSource audio = Cachette.GetComponents<AudioSource>()[0];
+			        audio.Play();
+			//aSources[1].Play();
 			//Play Sound fermer
 		}
 	}
