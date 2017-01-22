@@ -120,6 +120,11 @@ public class IAennemyScript : MonoBehaviour {
 		} else if (transform.Find ("/Perso").position.x < transform.position.x && LookRight == true) {
 			Flip ();
 		}
+
+		if (animatorEnnemy.GetCurrentAnimatorStateInfo (0).IsName ("AttackEnnemy") && animatorEnnemy.GetCurrentAnimatorStateInfo (0).normalizedTime >= 1.0f) {
+			Application.LoadLevel ("Menu");
+		}
+
 	}
 
 	void Flip()

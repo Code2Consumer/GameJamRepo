@@ -5,6 +5,8 @@ using UnityEngine;
 public class Pause : MonoBehaviour {
 
 
+	private int isLock ;
+
 	//boolean ( 1 ou 0 ) pour savoir si GUI est afficher ou non
 	public bool showGUI = false;
 
@@ -12,6 +14,7 @@ public class Pause : MonoBehaviour {
 	public GameObject canvas;
 
 	public void Start(){
+		isLock = 1;
 		//Des que le joueur a la main on recupere l'objet Canvas dans la variable qui va bien
 		canvas = GameObject.Find ("Canvas");
 	}
@@ -20,10 +23,16 @@ public class Pause : MonoBehaviour {
 	public void Update(){
 
 		//Si le joueur appuie sur Echape
-		if (Input.GetKeyDown (KeyCode.Escape)) {
+		if (Input.GetButton ("StartButton")) {
 			//On inverse la valeur de showGUI c'est a dire que si il est en jeu cela met pause et si il est en pause cela revien sur le jeu
 			// le ! permet de dire l'inverse
-			showGUI = !showGUI;
+			if (isLock == 1) {
+				showGUI = !showGUI;
+				isLock = 0;
+			}
+
+		} else {
+			isLock = 1;
 		}
 
 		//Si showGUI a été mis a 1 dans la ligne du dessus
