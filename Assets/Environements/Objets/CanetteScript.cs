@@ -21,4 +21,14 @@ public class CanetteScript : MonoBehaviour {
 			}
 		}
 	}
+
+	void OnCollisionEnter(Collision col)
+    {
+   		Debug.Log("colision canette");
+   	}
+
+	void OnTriggerEnter2D(Collider2D other)
+    {
+   		Debug.Log("trigger canette");
+   	}
 }
