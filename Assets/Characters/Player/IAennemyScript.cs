@@ -148,7 +148,7 @@ public class IAennemyScript : MonoBehaviour {
 		}
 
 		if (animatorEnnemy.GetCurrentAnimatorStateInfo (0).IsName ("AttackEnnemy") && animatorEnnemy.GetCurrentAnimatorStateInfo (0).normalizedTime >= 1.0f) {
-			Application.LoadLevel ("Menu");
+			Application.LoadLevel(Application.loadedLevel);
 		}
 
 	}
