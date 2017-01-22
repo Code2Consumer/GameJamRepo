@@ -7,11 +7,17 @@ public class CachetteScript : MonoBehaviour {
 	public GameObject Cachette; 
 	public bool PeuSeCacher; 
 	public bool EstCachee; 
+	public Component[] aSources; 
 
 	// Use this for initialization
 	void Start () {
 		PeuSeCacher = true ;
 		EstCachee = false ;
+
+		aSources = GetComponents<AudioSource>(); 
+		Component audio1 = aSources[0]; 
+		Component audio2 = aSources[1]; 
+		Component audio3 = aSources[2];
 	}
 	
 	// Update is called once per frame
