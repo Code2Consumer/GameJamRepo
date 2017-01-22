@@ -117,7 +117,7 @@ public class AnimationCharacter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (CanRamping == true &&  Input.GetKey (KeyCode.DownArrow)) {
+		if (CanRamping == true &&  Input.GetButton("ButtonY")) {
 			isRamping = true;
 		}
 		if (isRamping == false) {
@@ -129,7 +129,7 @@ public class AnimationCharacter : MonoBehaviour {
 					
 					GetComponent<AnimationCharacter> ().isScreaming = false;
 					isRunning = false;
-					if (isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false ) {
+					if (isOnGround == true &&  Input.GetButton("ButtonA") == false ) {
 						animationOBJ.Play ("PlayerWALKanim");
 						//Walking
 						PlayWaves ();
@@ -171,7 +171,7 @@ public class AnimationCharacter : MonoBehaviour {
 
 
 
-				} else if (Input.GetKey (KeyCode.RightArrow) == false && Input.GetKey (KeyCode.LeftArrow) == false && isScreaming == false && isOnGround == true && Input.GetKey (KeyCode.UpArrow) == false) {
+				} else if (Input.GetAxis("Horizontal") > -0.04f && Input.GetAxis("Horizontal") < 0.04f && isScreaming == false && isOnGround == true && Input.GetButton("ButtonA") == false) {
 					animationOBJ.Play ("PlayerIDLEanim");
 					isRunning = false;
 					m_Rigidbody2D.velocity = new Vector2 (0, m_Rigidbody2D.velocity.y);

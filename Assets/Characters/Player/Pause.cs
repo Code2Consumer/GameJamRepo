@@ -14,6 +14,8 @@ public class Pause : MonoBehaviour {
 	public GameObject canvas;
 
 	public void Start(){
+
+
 		isLock = 1;
 		//Des que le joueur a la main on recupere l'objet Canvas dans la variable qui va bien
 		canvas = GameObject.Find ("Canvas");
